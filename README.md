@@ -4,7 +4,6 @@ Game of Life
 The Game of Life isn't what you think, it's a program that simulates how cells might grow or die based on a small set of rules. This description if from [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life):
 
 >Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:   
-
 >1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.   
 >2. Any live cell with two or three live neighbours lives on to the next generation.   
 >3. Any live cell with more than three live neighbours dies, as if by overpopulation.   
