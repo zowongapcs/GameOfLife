@@ -1,7 +1,7 @@
 Game of Life
 ==================
 
-The Game of Life isn't what you think, it's a program that simulates how bacteria might grow. Like Minesweeper it is well suited to using a two dimensional array of buttons. You can find examples and descriptions at the following websites:
+The Game of Life isn't what you think, it's a program that simulates how bacteria might grow. Like Minesweeper it is well suited to using a two dimensional array of buttons. You can find examples and descriptions at the following websites:   
 [Play the Game of Life online](https://playgameoflife.com/)   
 [What is the Game of Life?](http://www.math.com/students/wonders/life/life.html)   
 [Conway's Game of Life on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)   
