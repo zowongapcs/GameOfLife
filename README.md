@@ -1,4 +1,4 @@
-![](Gospers_glider_gun.gif)
+![](Gospers_glider_gun.gif)   
 Game of Life
 ==================
 
