@@ -1,7 +1,7 @@
 Game of Life
 ==================
 
-The Game of Life isn't what you think, it's a program that simulates how cells might grow or die based on a small set of rules. This description if from [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life):
+The Game of Life isn't what you think, it's a program that simulates how cells might grow or die based on a small set of rules. This description is from [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life):
 
 >Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:   
 >1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.   
@@ -13,7 +13,7 @@ The Game of Life isn't what you think, it's a program that simulates how cells m
 >2. Any dead cell with three live neighbours becomes a live cell.   
 >3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.  
 
-You can find examples and descriptions at the following websites:   
+You can find examples and descriptions of the Game of Life at the following websites:   
 [Play the Game of Life online](https://playgameoflife.com/)   
 [What is the Game of Life?](http://www.math.com/students/wonders/life/life.html)   
 [Conway's Game of Life on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)   
