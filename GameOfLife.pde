@@ -1,7 +1,7 @@
 import de.bezier.guido.*;
 //Declare and initialize constants NUM_ROWS and NUM_COLS = 20
 private LifeCell[][] buttons; //2d array of minesweeper buttons
-private boolean[][] buffer;
+private boolean[][] buffer; //2d array of booleans to store state of buttons array
 
 void setup ()
 {
