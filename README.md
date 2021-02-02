@@ -28,8 +28,9 @@ Like Minesweeper the Game of Life is well suited to using a two dimensional arra
 
 Program Requirements
 --------------------
-1. TBD
-
+1. Your Game of Life will be a two dimensional array of buttons
+2. If the user clicks on a button that contains it should turn that cell on and off
+3. Make sure all class member variables and methods are labeled appropriately as either `public` or `private`
 
 Suggested steps to completing this assignment:
 ----------------------------------------------
