@@ -24,13 +24,14 @@ You can find examples and descriptions of the Game of Life at the following webs
 
 Install the Guido GUI Library
 --------------------------------
-Like Minesweeper the Game of Life is well suited to using a two dimensional array of buttons. We'll be using a GUI library called Guido. To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
+The Game of Life is well suited to using a two dimensional array of buttons. We'll be using a GUI library called Guido to create the buttons. To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
 
 Program Requirements
 --------------------
 1. Your Game of Life will be a two dimensional array of buttons
-2. If the user clicks on a button that contains it should turn that cell on and off
+2. If the user clicks on a button it should turn that cell on and off
 3. Make sure all class member variables and methods are labeled appropriately as either `public` or `private`
+4. The finished program should correctly implement the rules of the Game of Life
 
 Suggested steps to completing this assignment:
 ----------------------------------------------
