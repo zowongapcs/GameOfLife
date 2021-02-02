@@ -39,7 +39,8 @@ Suggested steps to completing this assignment:
 4. Use nested loops to create a `new Life` for each row column pair
 4. Use the constants initialize `buffer` to be a new 2d array of type `boolean`
 5. Uncomment the first two lines in the Life constructor (around line 62)
-6. In `draw` write nested loops to draw each button to the screen. You should now see a grid of buttons. If you click on the button it should turn off and on.
+6. In `draw` write nested loops to draw each button to the screen. You should now see a grid of buttons. If you click on the button it should turn off and on.   
+
 More to come
 
 
