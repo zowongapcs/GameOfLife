@@ -22,16 +22,16 @@ You can find examples and descriptions of the Game of Life at the following webs
 [What is the Game of Life?](http://www.math.com/students/wonders/life/life.html)   
 [Conway's Game of Life on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)   
 
-Install the Guido GUI Library on your PC or Mac
---------------------------------
-If you are running Processing on your PC or Mac, you will need to install the library. (You can skip this step if you are working online on [repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase)) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
-
 Program Requirements
 --------------------
 1. Your Game of Life will be a two dimensional array of buttons
 2. If the user clicks on a button it should turn that cell on and off
 3. Make sure all class member variables and methods are labeled appropriately as either `public` or `private`
-4. The finished program should correctly implement the rules of the Game of Life
+4. The finished program should correctly implement the rules of the Game of Life described above
+
+Install the Guido GUI Library on your PC or Mac
+--------------------------------
+If you are running Processing on your PC or Mac, you will need to install the library. (You can skip this step if you are working online on [repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase)) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
 
 Suggested steps to completing this assignment:
 ----------------------------------------------
@@ -51,7 +51,7 @@ Suggested steps to completing this assignment:
     * If the `button` has exactly 3 neighbors, set the corresponding row and column in the buffer to `true`
     * If the `button` has two living neighbors and the `button` is alive, set the corresponding row and column in the buffer to `true`
     * In all other circumstances, set the corresponding row and column in the buffer to `false`
-13. The game is more interesting when you can pause it and create new arrangements. Write in code in the `keypressed` function so that every key press switches the `boolean running` on and off    
+13. The game is more interesting when you can pause it and create new arrangements. Write in code in the `keypressed` function so that every key press switches the `boolean running` variable on and off (i.e. `true` or `false`)    
 
 Samples of Student Work
 -----------------------
