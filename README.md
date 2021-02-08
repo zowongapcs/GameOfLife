@@ -48,9 +48,9 @@ Suggested steps to completing this assignment:
 10. We'll need a "buffer", a place to store the current state of the game. In `setup` use the constants initialize the variable `buffer` to be a new 2d array of type `boolean`
 11. Write the functions `copyFromBufferToButtons()` and `copyFromButtonsToBuffer()`. They will use the constants and nested loops to copy all `true`s and `false`s from a 2d array of booleans to the `buttons` grid and vice versa.
 12. You are just about done! Now go back to the nested loops you wrote on step 6. Inside the loops, just before you draw the button check:
-  * If the `button` has exactly 3 neighbors, set the corresponding row and column in the buffer to `true`
-  * If the `button` has two living neighbers and the `button` is alive, set the corresponding row and column in the buffer to `true`
-  * In all other circumstances, set the corresponding row and column in the buffer to `false`
+   * If the `button` has exactly 3 neighbors, set the corresponding row and column in the buffer to `true`
+   * If the `button` has two living neighbers and the `button` is alive, set the corresponding row and column in the buffer to `true`
+   * In all other circumstances, set the corresponding row and column in the buffer to `false`
 
 Samples of Student Work
 -----------------------
