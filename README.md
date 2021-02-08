@@ -31,7 +31,7 @@ Program Requirements
 
 Install the Guido GUI Library on your PC or Mac
 --------------------------------
-If you are running Processing on your PC or Mac, you will need to install the library. (You can skip this step if you are working online on [repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase)) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
+If you are running Processing on your PC or Mac, you will need to install the Guido GUI library. (You can skip this step if you are working online on [repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase)) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
 
 Suggested steps to completing this assignment:
 ----------------------------------------------
