@@ -22,7 +22,7 @@ You can find examples and descriptions of the Game of Life at the following webs
 [What is the Game of Life?](http://www.math.com/students/wonders/life/life.html)   
 [Conway's Game of Life on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)   
 
-Install the Guido GUI Library
+Install the Guido GUI Library on your PC or Mac
 --------------------------------
 If you are running Processing on your PC or Mac, you will need to install the library. (You can skip this step if you are working online on [repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase)) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
 
