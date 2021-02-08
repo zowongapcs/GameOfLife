@@ -41,13 +41,16 @@ Suggested steps to completing this assignment:
 4. Just under that, use nested loops to create a `new Life` for each row column pair. Be sure to use the constants in your loop.
 5. Uncomment the first two lines in the Life constructor `public Life (int row, int col)`
 6. In `draw` under the comment `//use nested loops to draw the buttons here` write nested loops (again using your constants) to draw each button to the screen. 
-7. Run the program, you should now see a grid of buttons similar to the picture below. If you click on the button it should turn off and on.   
+7. Run the program, you should now see a random grid of buttons similar to the picture below. If you click on the button it should turn off and on.   
 ![](GameOfLife1.gif)   
-8. Use the constants initialize `buffer` to be a new 2d array of type `boolean`
-9.  
-
-More to come
-
+8. Now that we have a grid of buttons, we'll start to implement the rules of the Game of life. Find the function `public boolean isValid(int r, int c)` and complete it *using the constants* so that it returns `true` if (r,c) is *valid*. In that case *valid* means it exists, it's a row colomn pair that is on the grid and not off the edges. If we have 20 rows and 20 columns, valid positions have row and column numbers from 0 to 19 inclusive. You may find completing the codingbat problem [isValidOn5x5](https://codingbat.com/prob/p288919?parent=/home/simona1@sfusd.edu/minesweeper) helpful.
+9. Next, find the function `public int countNeighbors(int row, int col)`. Complete it so that it returns the number of neighboring life cells that are alive or `true`. You may find completing the codingbat problem [countNeighborTrues](https://codingbat.com/prob/p224820?parent=/home/simona1@sfusd.edu/minesweeper) helpful. While it is possible to write this function using nested loops, I find it much easier to code with 8 `if` statements, one for each possible neighbor. You will first have to make sure that neighbor is valid *before* you check to see if it is `true`, otherwise you may go out of bounds. As an example you could check if the neighbor above was true with code like `buttons[r-1][c].getLife()==true`.
+10. We'll need a "buffer", a place to store the current state of the game. In `setup` se the constants initialize the variable `buffer` to be a new 2d array of type `boolean`
+11. Write the functions `copyFromBufferToButtons()` and `copyFromButtonsToBuffer()`. They will use nested loops to copy all trues and false from a 2d array of booleans to the `buttons` grid and vice versa.
+12. You are just about done! Now go back to the nested loops you wrote on step 6. Inside the loops, just before you draw the button check:
+  * If the `button` has exactly 3 neighbors, set the corresponding row and column in the buffer to `true`
+  * If the `button` has two living neighbers and the `button` is alive, set the corresponding row and column in the buffer to `true`
+  * In all other circumstances, set the corresponding row and column in the buffer to `false`
 
 Samples of Student Work
 -----------------------
