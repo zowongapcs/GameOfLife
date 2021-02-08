@@ -41,7 +41,8 @@ Suggested steps to completing this assignment:
 4. Just under that, use nested loops to create a `new Life` for each row column pair. Be sure to use the constants in your loop.
 5. Uncomment the first two lines in the Life constructor `public Life (int row, int col)`
 6. In `draw` under the comment `//use nested loops to draw the buttons here` write nested loops (again using your constants) to draw each button to the screen. 
-7. Run the program, you should now see a grid of buttons. If you click on the button it should turn off and on.  
+7. Run the program, you should now see a grid of buttons similar to the picture below. If you click on the button it should turn off and on.   
+![](GameOfLife1.gif)   
 8. Use the constants initialize `buffer` to be a new 2d array of type `boolean`
 9.  
 
