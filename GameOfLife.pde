@@ -21,7 +21,7 @@ public void draw () {
     return;
   copyFromButtonsToBuffer();
 
-  //your code here
+  //use nested loops to draw the buttons here
 
   copyFromBufferToButtons();
 }
