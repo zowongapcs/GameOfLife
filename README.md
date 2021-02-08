@@ -36,12 +36,14 @@ Program Requirements
 Suggested steps to completing this assignment:
 ----------------------------------------------
 1. Fork and clone down this repository (or if you are working online, for [this repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase). As you work through the following steps, make sure that your program runs correctly before going to the next step.
-2. On line 2, delete the comment and create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20  
-3. Go to line 13, use the constants to initialize the 2d array `buttons` to have 20 rows and 20 columns
-4. Use nested loops to create a `new Life` for each row column pair
-4. Use the constants initialize `buffer` to be a new 2d array of type `boolean`
-5. Uncomment the first two lines in the Life constructor (around line 62)
-6. In `draw` write nested loops to draw each button to the screen. You should now see a grid of buttons. If you click on the button it should turn off and on.   
+2. Under the comment `//Declare and initialize constants NUM_ROWS and NUM_COLS = 20` create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20  
+3. Under the comment `//your code to initialize buttons goes here` *use the constants* `NUM_ROWS` and `NUM_COLS` to initialize the 2d array `buttons` to have 20 rows and 20 columns
+4. Just under that, use nested loops to create a `new Life` for each row column pair. Be sure to use the constants in your loop.
+5. Uncomment the first two lines in the Life constructor `public Life (int row, int col)`
+6. In `draw` under the comment `//use nested loops to draw the buttons here` write nested loops (again using your constants) to draw each button to the screen. 
+7. Run the program, you should now see a grid of buttons. If you click on the button it should turn off and on.  
+8. Use the constants initialize `buffer` to be a new 2d array of type `boolean`
+9.  
 
 More to come
 
