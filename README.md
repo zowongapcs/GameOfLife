@@ -24,7 +24,7 @@ You can find examples and descriptions of the Game of Life at the following webs
 
 Install the Guido GUI Library
 --------------------------------
-The Game of Life is well suited to using a two dimensional array of buttons. We'll be using a GUI library called Guido to create the buttons. To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
+If you are running Processing on your PC or Mac, you will need to install the library. (You can skip this step if you are working online on repl.it) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
 
 Program Requirements
 --------------------
