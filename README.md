@@ -51,7 +51,8 @@ Suggested steps to completing this assignment:
     * If the `button` has exactly 3 neighbors, set the corresponding row and column in the buffer to `true`
     * If the `button` has two living neighbers and the `button` is alive, set the corresponding row and column in the buffer to `true`
     * In all other circumstances, set the corresponding row and column in the buffer to `false`
-13. The game is more interesting when you can pause it and create new arrangements. Write in code in the `keypressed` function so that every key press switches the `boolean running` on and off 
+13. The game is more interesting when you can pause it and create new arrangements. Write in code in the `keypressed` function so that every key press switches the `boolean running` on and off    
+
 Samples of Student Work
 -----------------------
 *none yet!*
