@@ -29,7 +29,7 @@ Program Requirements
 3. Make sure all class member variables and methods are labeled appropriately as either `public` or `private`
 4. The finished program should correctly implement the rules of the Game of Life described above
 
-Install the Guido GUI Library on your PC or Mac
+Installing the Guido GUI Library on your PC or Mac
 --------------------------------
 If you are running Processing on your PC or Mac, you will need to install the Guido GUI library. (You can skip this step if you are working online on [repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase)) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
 
