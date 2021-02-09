@@ -28,6 +28,7 @@ Program Requirements
 2. If the user clicks on a button it should turn that cell on and off
 3. Make sure all class member variables and methods are labeled appropriately as either `public` or `private`
 4. The finished program should correctly implement the rules of the Game of Life described above
+5. The finished program should be able to be paused on and off so that the player can modify the arrangement of living cells
 
 Installing the Guido GUI Library on your PC or Mac
 --------------------------------
