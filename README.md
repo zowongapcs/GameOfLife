@@ -56,7 +56,7 @@ Suggested steps to completing this assignment:
 
 Extensions
 ----------
-There are many variations on the rules of the game of life. [This website]([https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/gameOfLife2.html)
+There are many variations on the rules of the game of life. [This website](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/gameOfLife2.html) list some of the interesting ones.
 
 Samples of Student Work
 -----------------------
