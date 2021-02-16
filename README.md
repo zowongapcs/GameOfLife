@@ -54,6 +54,10 @@ Suggested steps to completing this assignment:
     * In all other circumstances, set the corresponding row and column in the buffer to `false`
 13. The game is more interesting when you can pause it and create new arrangements. Write in code in the `keypressed` function so that every key press switches the `boolean running` variable on and off (i.e. `true` or `false`)    
 
+Extensions
+----------
+There are many variations on the rules of the game of life. [This website]([https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/gameOfLife2.html)
+
 Samples of Student Work
 -----------------------
 *none yet!*
