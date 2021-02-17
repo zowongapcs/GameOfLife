@@ -64,7 +64,9 @@ If you don't see those patterns emerge in your program, double check that `isVal
 
 Extensions
 ----------
-There are many variations on the rules of the game of life. [This website](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/gameOfLife2.html) lists some interesting ones.
+If you have extra time, you might consider adding different keypresses to erase the screen or load particular patterns.    
+
+There are also many variations on the rules of the game of life. [This website](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/gameOfLife2.html) lists some interesting ones.
 
 Samples of Student Work
 -----------------------
