@@ -59,6 +59,7 @@ Debugging and Checking for Correctness
 If you have implemented the rules correctly, you should notice as you run your program it produces some classic stable and repeating patterns.
 ![](4life2.png)   
 *illustration from [pi.math.cornell.edu](http://pi.math.cornell.edu/~lipa/mec/lesson6.html)*   
+
 If you don't see those patterns emerge in your program, double check that `isValid` and `countNeighbors` are correct. You might want to go back and compare those functions with the codingbat problems [isValidOn5x5](https://codingbat.com/prob/p288919?parent=/home/simona1@sfusd.edu/minesweeper) and [countNeighborTrues](https://codingbat.com/prob/p224820?parent=/home/simona1@sfusd.edu/minesweeper). Those two functions are the ones that are most frequently buggy.
 
 Extensions
