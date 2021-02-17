@@ -54,13 +54,13 @@ Suggested steps to completing this assignment:
     * In all other circumstances, set the corresponding row and column in the buffer to `false`
 13. The game is more interesting when you can pause it and create new arrangements. Write in code in the `keypressed` function so that every key press switches the `boolean running` variable on and off (i.e. `true` or `false`)    
 
-Debugging and Checking for Correctness
+Checking for Correctness and Debugging
 ---------------------------------------
 If you have implemented the rules correctly, you should notice as you run your program it produces some classic stable and repeating patterns. To test your program, try pausing it and entering some of the following arrangements:
 ![](4life2.png)   
 *illustration from [pi.math.cornell.edu](http://pi.math.cornell.edu/~lipa/mec/lesson6.html)*   
 
-If you don't see those patterns emerge in your program, double check that `isValid` and `countNeighbors` are correct. You might want to go back and compare those functions with the codingbat problems [isValidOn5x5](https://codingbat.com/prob/p288919?parent=/home/simona1@sfusd.edu/minesweeper) and [countNeighborTrues](https://codingbat.com/prob/p224820?parent=/home/simona1@sfusd.edu/minesweeper). Those two functions are the ones that are most frequently buggy.
+If you don't see those patterns emerge in your program, double check that `isValid` and `countNeighbors` are correct. You might want to go back and compare those functions with the codingbat problems [isValidOn5x5](https://codingbat.com/prob/p288919?parent=/home/simona1@sfusd.edu/minesweeper) and [countNeighborTrues](https://codingbat.com/prob/p224820?parent=/home/simona1@sfusd.edu/minesweeper). Those two functions are typically the most frequently bug prone.
 
 Extensions
 ----------
