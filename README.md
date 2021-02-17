@@ -64,8 +64,8 @@ If you don't see those patterns emerge in your program, double check that `isVal
 
 Extensions
 ----------
-If you have extra time, you might consider adding different keypresses:
-+ to erase the screen
+If you have extra time, you might consider adding different key presses to:
++ erase the screen
 + increase or decrease the number of rows and columns
 + speed up or slow down the frame rate 
 + load particular patterns.    
