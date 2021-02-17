@@ -56,7 +56,7 @@ Suggested steps to completing this assignment:
 
 Debugging and Checking for Correctness
 ---------------------------------------
-If you have implemented the rules correctly, you should notice as you run your program it produces some classic stable and repeating patterns.
+If you have implemented the rules correctly, you should notice as you run your program it produces some classic stable and repeating patterns. To test your program, try pausing it and entering some of the following arrangements:
 ![](4life2.png)   
 *illustration from [pi.math.cornell.edu](http://pi.math.cornell.edu/~lipa/mec/lesson6.html)*   
 
