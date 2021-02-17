@@ -26,7 +26,7 @@ Program Requirements
 --------------------
 1. Your Game of Life will be a two dimensional array of buttons
 2. If the user clicks on a button it should turn that cell on and off
-3. Make sure all class member variables and methods are labeled appropriately as either `public` or `private`
+3. All class member variables and methods will be labeled appropriately as either `public` or `private`
 4. The finished program should correctly implement the rules of the Game of Life described above (or an interesting variation, see [extensions](#extensions) below)
 5. The finished program should be able to be paused on and off so that the player can modify the arrangement of living cells
 
