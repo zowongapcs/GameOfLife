@@ -32,11 +32,11 @@ Program Requirements
 
 Installing the Guido GUI Library on your PC or Mac
 --------------------------------
-If you are running Processing on your PC or Mac, you will need to install the Guido GUI library. (You can skip this step if you are working online on [repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase)) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
+If you are running Processing on your PC or Mac, you will need to install the Guido GUI library. (You can skip this step if you are working online on [repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBaseV2#Sketch.java)) To install it, start *Processing* and choose *Sketch | Import Library | Add Library*. Type *Guido* in the search box, the click on *Guido by Florian Jenett* and then click *Install*.
 
 Suggested steps to completing this assignment:
 ----------------------------------------------
-1. Fork and clone down this repository (or if you are working online, fork [this repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBase)). 
+1. Fork and clone down this repository (or if you are working online, fork [this repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBaseV2#Sketch.java)). 
 2. Under the comment `//Declare and initialize constants NUM_ROWS and NUM_COLS = 20` create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20 (using constants will make things much easier if later you want to change the size of the grid).  
 3. Under the comment `//your code to initialize buttons goes here` *use the constants* `NUM_ROWS` and `NUM_COLS` to initialize the 2d array `buttons` to have 20 rows and 20 columns
 4. Just under that, use nested loops to create a `new Life` for each row column pair. Be sure to use the constants in your loop.
