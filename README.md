@@ -37,12 +37,13 @@ If you are running Processing on your PC or Mac, you will need to install the Gu
 Suggested steps to completing this assignment:
 ----------------------------------------------
 1. Fork and clone down this repository (or if you are working online, fork [this repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBaseV2#Sketch.java)). 
-2. Under the comment `//Declare and initialize constants NUM_ROWS and NUM_COLS = 20` create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20 (using constants will make things much easier if later you want to change the size of the grid).  
-3. Under the comment `//your code to initialize buttons goes here` *use the constants* `NUM_ROWS` and `NUM_COLS` to initialize the 2d array `buttons` to have 20 rows and 20 columns
-4. Just under that, use nested loops to create a `new Life` for each row column pair. Be sure to use the constants in your loop.
-5. Uncomment the first two lines in the Life constructor `public Life (int row, int col)`
-6. In `draw` under the comment `//use nested loops to draw the buttons here` write nested loops (again using the constants) to draw each button to the screen. 
-7. Run the program, you should now see a random grid of buttons similar to the picture below. If you click on the button it should turn off and on.   
+2. You may find slides 46-78 of the [2d Arrays](https://docs.google.com/presentation/d/1_rk3nKsde5bQGs-36ijMh4wmNN3RtqFpNL59R6CnC-c/edit?usp=sharing) slide presentation helpful in completing the following steps.
+3. Under the comment `//Declare and initialize constants NUM_ROWS and NUM_COLS = 20` create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20 (using constants will make things much easier if later you want to change the size of the grid).  
+4. Under the comment `//your code to initialize buttons goes here` *use the constants* `NUM_ROWS` and `NUM_COLS` to initialize the 2d array `buttons` to have 20 rows and 20 columns
+5. Just under that, use nested loops to create a `new Life` for each row column pair. Be sure to use the constants in your loop.
+6. Uncomment the first two lines in the Life constructor `public Life (int row, int col)`
+7. In `draw` under the comment `//use nested loops to draw the buttons here` write nested loops (again using the constants) to draw each button to the screen. 
+8. Run the program, you should now see a random grid of buttons similar to the picture below. If you click on the button it should turn off and on.   
 ![](GameOfLife1.gif)   
 8. Now that we have a grid of buttons, we'll start to implement the rules of the Game of life. Find the function `public boolean isValid(int r, int c)` and complete it *using the constants* so that it returns `true` if (r,c) is *valid*. In this case *valid* means it exists, it's a row column pair that is on the grid and not outside of the edges. If we have 20 rows and 20 columns, valid positions have row and column numbers from 0 to 19 inclusive. You may find first completing the codingbat problems [isValidOn5x5](https://codingbat.com/prob/p288919) and [isValidOnNxN](https://codingbat.com/prob/p229907) to be helpful.
 9. Next, find the function `public int countNeighbors(int row, int col)`. Complete it so that it returns the number of neighboring life cells that are alive or `true`. You may find first completing the codingbat problem [countNeighborTrues](https://codingbat.com/prob/p224820?parent=/home/simona1@sfusd.edu/minesweeper) to be helpful. While it is possible to write this function using nested loops, I find it much easier to code with 8 `if` statements, one for each possible neighbor. You will first have to make sure that neighbor is valid *before* you check to see if it is `true`, otherwise you may go out of bounds. As an example you could check if the neighbor above (r,c) was true with code like `buttons[r-1][c].getLife()==true`.
