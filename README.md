@@ -37,7 +37,7 @@ If you are running Processing on your PC or Mac, you will need to install the Gu
 Suggested steps to completing this assignment:
 ----------------------------------------------
 1. Fork and clone down this repository (or if you are working online, fork [this repl.it](https://repl.it/@MrSimonLowell/GameOfLifeBaseV2#Sketch.java)). 
-2. You may find slides 46-73 of the [2d Arrays](https://docs.google.com/presentation/d/1_rk3nKsde5bQGs-36ijMh4wmNN3RtqFpNL59R6CnC-c/edit?usp=sharing) slide presentation helpful in completing the following steps.
+2. You may find slides 46-70 of the [2d Arrays](https://docs.google.com/presentation/d/1_rk3nKsde5bQGs-36ijMh4wmNN3RtqFpNL59R6CnC-c/edit?usp=sharing) slide presentation helpful in completing the following steps.
 3. Under the comment `//Declare and initialize constants NUM_ROWS and NUM_COLS = 20` create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20 (using constants will make things much easier if later you want to change the size of the grid).  
 4. Under the comment `//your code to initialize buttons goes here` *use the constants* `NUM_ROWS` and `NUM_COLS` to initialize the 2d array `buttons` to have 20 rows and 20 columns
 5. Just under that, use nested loops to create a `new Life` for each row column pair. Be sure to use the constants in your loop.
