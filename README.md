@@ -75,4 +75,4 @@ There are also many variations on the rules of the game of life. [This website](
 
 Samples of Student Work
 -----------------------
-*none yet!*
+[Gui](https://3gui.github.io/GameOfLife/)   
