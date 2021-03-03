@@ -21,6 +21,7 @@ You can find examples and descriptions of the Game of Life at the following webs
 [Play the Game of Life online](https://playgameoflife.com/)   
 [What is the Game of Life?](http://www.math.com/students/wonders/life/life.html)   
 [Conway's Game of Life on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)   
+[Fractal Teapot: Conway's Game of Life](https://www.fractalteapot.com/portfolio/game-of-life/)
 
 Program Requirements
 --------------------
