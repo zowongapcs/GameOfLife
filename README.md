@@ -77,3 +77,4 @@ There are also many variations on the rules of the game of life. [This website](
 Samples of Student Work
 -----------------------
 [Gui](https://3gui.github.io/GameOfLife/)   
+[Alex](https://altakamoto.github.io/GameOfLife/)   
