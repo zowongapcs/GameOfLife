@@ -79,6 +79,8 @@ Samples of Student Work
 [Harry](https://harrywong3.github.io/GameOfLife/)   
 [Gui](https://3gui.github.io/GameOfLife/)   
 [Lila](https://lilacs415.github.io/GameOfLife/)   
+[William](https://apcsweguan4.github.io/GameOfLife/)   
+[Kathy](https://kathyl1.github.io/GameOfLife/)   
 [Eustache](https://eustachewestphal.github.io/GameOfLife/)   
 [Albertina](https://aleesfa.github.io/GameOfLife/)   
 [Alex](https://altakamoto.github.io/GameOfLife/)   
