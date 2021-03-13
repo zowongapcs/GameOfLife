@@ -11,8 +11,13 @@ public void setup () {
   Interactive.make( this );
 
   //your code to initialize buttons goes here
+  buttons = new Life[NUM_ROWS][NUM_COLS];
+    for(int r = 0; r < NUM_ROWS; r++)
+      for(int c = 0; c < NUM_COLS; c++)
+        buttons[r][c] = new Life(r,c);
 
   //your code to initialize buffer goes here
+  buffer = new boolean[NUM_ROWS][NUM_COLS];
 }
 
 public void draw () {
@@ -22,30 +27,80 @@ public void draw () {
   copyFromButtonsToBuffer();
 
   //use nested loops to draw the buttons here
+  for(int r = 0; r < NUM_ROWS; r++){
+      for(int c = 0; c < NUM_COLS; c++){
+        if(countNeighbors(r,c)==3){
+          buffer[r][c]=true;
+        }else if(countNeighbors(r,c)==2 && buttons[r][c].getLife()==true){
+          buffer[r][c]=true;
+        }else{
+          buffer[r][c]=false;
+        }
+        buttons[r][c].draw();
+      }
+    }
 
   copyFromBufferToButtons();
 }
 
 public void keyPressed() {
   //your code here
+  running = !running;
 }
 
 public void copyFromBufferToButtons() {
   //your code here
+  for(int r = 0; r < NUM_ROWS; r++)
+      for(int c = 0; c < NUM_COLS; c++)
+        if(buffer[r][c]==true)
+          buttons[r][c].setLife(true);
+        else
+          buttons[r][c].setLife(false);
 }
 
 public void copyFromButtonsToBuffer() {
   //your code here
+  for(int r = 0; r < NUM_ROWS; r++)
+      for(int c = 0; c < NUM_COLS; c++)
+        if(buttons[r][c].getLife()==true)
+          buffer[r][c]=true;
+        else
+          buffer[r][c]=false;
 }
 
 public boolean isValid(int r, int c) {
   //your code here
+  return isValidOnNbyN(NUM_ROWS,NUM_COLS,r,c);
+  //return false;
+}
+
+public boolean isValidOnNbyN(int NUM_ROWS, int NUM_COLS, int row, int col){
+  if(row<=NUM_ROWS-1 && col<=NUM_COLS-1 && row>=0 && col>=0)
+    return true;
   return false;
 }
 
 public int countNeighbors(int row, int col) {
   int neighbors = 0;
   //your code here
+  
+  if(isValidOnNbyN(NUM_ROWS,NUM_COLS,row-1,col-1) && buttons[row-1][col-1].getLife()==true)
+      neighbors++;
+    if(isValidOnNbyN(NUM_ROWS,NUM_COLS,row-1,col) && buttons[row-1][col].getLife()==true)
+      neighbors++;
+    if(isValidOnNbyN(NUM_ROWS,NUM_COLS,row-1,col+1) && buttons[row-1][col+1].getLife()==true)
+      neighbors++;
+    if(isValidOnNbyN(NUM_ROWS,NUM_COLS,row,col-1) && buttons[row][col-1].getLife()==true)
+      neighbors++;
+    if(isValidOnNbyN(NUM_ROWS,NUM_COLS,row,col+1) && buttons[row][col+1].getLife()==true)
+      neighbors++;
+    if(isValidOnNbyN(NUM_ROWS,NUM_COLS,row+1,col-1) && buttons[row+1][col-1].getLife()==true)
+      neighbors++;
+    if(isValidOnNbyN(NUM_ROWS,NUM_COLS,row+1,col) && buttons[row+1][col].getLife()==true)
+      neighbors++;
+    if(isValidOnNbyN(NUM_ROWS,NUM_COLS,row+1,col+1) && buttons[row+1][col+1].getLife()==true)
+      neighbors++;
+  
   return neighbors;
 }
 
@@ -55,8 +110,8 @@ public class Life {
   private boolean alive;
 
   public Life (int row, int col) {
-    // width = 400/NUM_COLS;
-    // height = 400/NUM_ROWS;
+    width = 400/NUM_COLS;
+    height = 400/NUM_ROWS;
     myRow = row;
     myCol = col; 
     x = myCol*width;
@@ -78,9 +133,11 @@ public class Life {
   }
   public boolean getLife() {
     //replace the code one line below with your code
-    return false;
+    return alive;
+    //return false;
   }
   public void setLife(boolean living) {
     //your code here
+    alive = living;
   }
 }
